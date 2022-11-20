@@ -12,10 +12,11 @@
 
   
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     text-align: center;
     padding-bottom: 5px;
+    padding-top:3px;
   }
 
   h2 {
@@ -298,7 +299,7 @@ border-radius: 5px 5px 5px 5px!important;
     background-color: #37006A;
     border-radius: 0px 0px 20px 20px;
     color: white !important;
-
+    
   }
 
   .nombreInicio {
@@ -551,7 +552,7 @@ ul.nav {
 }
 
 .bancoazul {
-  margin: top 27px;
+  margin-top: 40px;
 
 }
 
