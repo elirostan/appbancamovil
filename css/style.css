@@ -15,6 +15,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
+    padding-bottom: 5px;
   }
 
   h2 {
@@ -531,6 +532,8 @@ ul.nav {
   align-items: center;
   height: 39px;
   background-color: #37006A;
+  color: white !important;
+ 
  
 
 
