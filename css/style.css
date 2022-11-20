@@ -10,32 +10,28 @@
 
   }
 
-  .fondotranf{
-    background-color: #EEEEEA;
-    }
-
-    
+  
   h1 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
   }
 
   h2 {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: black;
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: black;
   }
 
   p {
 
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: bold;
 
   }
@@ -88,8 +84,8 @@
 
 
   #accordionExample {
-padding-left: 16px;
-    width:334px ;
+margin: 16px;
+   
   }
 
 
@@ -257,9 +253,10 @@ border-radius: 5px 5px 5px 5px!important;
     position: absolute;
     width: 64px;
     height: 84px;
-    left: 284px;
-    top: 476px;
-   margin-top: 5px;
+    left: 300px;
+    top: 550px;
+    
+  
 
   }
 
@@ -299,8 +296,8 @@ height:23px;
   }
 
   .stylecuentas {
-    margin-left: 10px;
-  
+    
+  margin: 16px;
     margin-top: -10px;
     justify-content: center;
     align-items: center;
@@ -312,7 +309,7 @@ height:23px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    width: 335px;
+   
   
   
   }
@@ -345,7 +342,7 @@ font-weight: 400;  }
 
   .cuenta3 {
 
-    margin-left: 150px;
+    margin-left: 200px;
   }
 
   .operaciones {
@@ -398,31 +395,32 @@ border-radius: 5px 5px 5px 5px!important;
 .transf {
   
   text-align: left;
-  margin-top: 15px;
-  padding-left: 15px;
+  margin: 16px;
   background-color: white !important;
   color: #37006A !important;
   height: 54px;
   width: 327px;
   font-weight: 900;
   font-size: 0.9;
-  border: none;
+  border-color: #37006A;
  
 }
 
 .nuevatransf {
 padding-right: 12px;
+
+
 }
 
 .arrowtransf {
-  padding-left: 75px;
+  
+    position: absolute;
+    right: 0px;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
 
-}
 
-.arrowtransf2 {
-padding-left: 50px;
-
-}
 
 .hist {
   margin-top: 50px;
@@ -435,7 +433,7 @@ padding-left: 50px;
   width: 327px;
   font-weight: 900;
   font-size: 0.9;
-  border: none;
+  border-color: #37006A;
 }
 
 
@@ -452,10 +450,6 @@ padding-left: 50px;
 
 }
 
-.arrowtransf3 {
- padding-left: 130px;
-
-}
 
 .modal-footer {
   justify-content: center;
@@ -468,11 +462,15 @@ padding-left: 50px;
   width: 87px;
   height: 57px;
   text-align: center;
-  padding: 5px;
+  padding-left: 20px;
   
 
 }
 
+ul.nav {
+  margin-left: 16px;
+  margin-right: 16px;
+}
 
 .nav-link {
   color: #555252
@@ -541,16 +539,15 @@ padding-left: 50px;
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding: 0px;
   gap: 11px;
   position: absolute;
-  width: 299px !important;
   height: 65px;
-  left: 31px;
   top: 209px;
   font-weight: bold;
   color: #37006A!important;
-
+  left: 50px;
+ 
+ 
 
 
 
@@ -562,15 +559,16 @@ padding-left: 50px;
   display: flex;
   flex-direction: column;
   text-align: left;
-  padding: 0px;
   gap: 11px;
   position: absolute;
   width: 299px !important;
   height: 65px;
-  left: 31px;
   top: 290px;
   font-size: 0.9rem;
   font-weight: bold;
+  left: 50px;
+ 
+  
 }
 
 .linkcontra {
@@ -651,10 +649,10 @@ color: black;
 
 .pago {
   text-align: left;
-  width: 312px !important;
-  margin-left: 20px;
+  width: 380px !important;
+  margin-left: 16px;
 
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .datos {
