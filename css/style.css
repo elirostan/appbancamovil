@@ -624,7 +624,7 @@ padding-bottom: 10px;
 .linkcontra {
 
   font-size: 1rem;
-  margin-top: 400px;
+  margin-top: 300px;
 
 
 }
@@ -748,3 +748,10 @@ margin-left: auto;
   width: 1;
 }
 
+.styleoblig {
+  margin-top: 145px;
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 16px;
+}
