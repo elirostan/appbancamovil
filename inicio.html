@@ -28,24 +28,31 @@
 
     <main>
 
-        <div class="stylecuentas">
-        
-          
-            <div class="moneyamount" aria-label="150.675,96 pesos" >
-            
-              <p aria-hidden="true" class="stylemonto">$150.675,96</p>
 
-              <img src="img/visible.png" alt="" class="stylemostrar ">
+      
+  
 
-            </div>
-            
+        <div  class="stylecuentas">
+      
+
+          <div class="sr-only" >150.675,96 pesos</div>
+      <div class="stylemonto" aria-hidden="true">
+        <span class="currency">$</span>
+  <span class="fraction">150.675</span>
+  <span class="separator">,</span>
+  <span class="cents">96</span>
+  <img src="img/visible.png" alt="" class="stylemostrar">
+      </div>
+      
 
   
-            <div>
-            <span aria-label="cuenta pesos 6 534 634 8 987 3"></span>
-            <p aria-hidden="true" class="cuenta">CA $6534634-8 987-3</p>
+      <div class="sr-only" >cuenta pesos 6 534 634 8 987 3</div>
+      <div aria-hidden="true">
+        <p class="cuenta">CA $6534634-8 987-3</p>
+      </div>
 
-          </div>
+  
+      
           
             <div class="cuentas2">
                 <div role="button">Copiar CBU</div>
@@ -63,10 +70,16 @@
         </div>
 
 
-        <div class="btn-group transferir" role="group" >
-          <a class="btn btn-primary transferir" href="nuevaTransferencia.html" role="button" ><img src="img/transferir.png">Transferir dinero</a>
-          <button type="button" class="btn btn-primary transferir"><img src="img/pagar.png">Pagar servicios</button>
-          <button type="button" class="btn btn-primary transferir"><img src="img/recargar.png">Recargar Celular</button>
+        <div class="btn-group transferir" role="group">
+
+          <div>
+            <form action="nuevaTransferencia.html" >
+              <button type="submit" class="btn btn-primary transferir"><img src="img/transferir.png" alt="">Transferir dinero</button>
+          </form>
+          </div>
+          
+          <button type="button" class="btn btn-primary transferir"><img src="img/pagar.png" alt="">Pagar servicios</button>
+          <button type="button" class="btn btn-primary transferir"><img src="img/recargar.png" alt="">Recargar Celular</button>
         </div>
 
 
@@ -95,7 +108,7 @@
 
 
           <div>
-            <button type="button" class="btn btn-primary3" data-bs-toggle="modal" data-bs-target="#exampleModal"> <img src="img/ayuda.png">Ayuda</button>
+            <button type="button" class="btn btn-primary3" data-bs-toggle="modal" data-bs-target="#exampleModal"> <img src="img/ayuda.png" alt="">Ayuda</button>
         </div>
 
 
@@ -110,7 +123,13 @@
         </div>
        
         <div class="modal-footer">
-          <a class="btn btn-primary buttonmodal" href="nuevaTransferencia.html" role="button">Transferir</a>
+
+          <div>
+            <form action="nuevaTransferencia.html" >
+              <button type="submit" class="btn btn-primary buttonmodal">Transferir</button>
+          </form>
+          </div>
+    
         
           <button type="button" class="btn btn-primary buttonmodal">Pagar Servicios</button>
           <button type="button" class="btn btn-primary buttonmodal">Pagar Tarjetas</button>
@@ -130,7 +149,7 @@
       <ul class="nav">
         <li class="nav-item">
           <div>
-            <a class="nav-link active" aria-current="page" href="#"><img src="img/inicio.png">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="#"><img src="img/inicio.png" alt="">Inicio</a>
           </div>
           <div class="underline">
 
@@ -138,13 +157,13 @@
           
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="nuevaTransferencia.html"><img src="img/transf.png">Transferir</a>
+          <a class="nav-link" href="nuevaTransferencia.html"><img src="img/transf.png" alt="">Transferir</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><img src="img/videocam.png">Consulta</a>
+          <a class="nav-link" href="#"><img src="img/videocam.png" alt="">Consulta</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"><img src="img/menu.png">Menú</a>
+          <a class="nav-link"><img src="img/menu.png" alt="">Menú</a>
         </li>
       </ul>
     </nav>

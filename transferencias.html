@@ -5,94 +5,115 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 
-   
-    <title>Transferencias-Banca móvil</title>
+
+  <title>Transferencias-Banca móvil</title>
 
 </head>
 
 <body>
 
-    <header class="headerlogin">
-      <div class="arrowheader">
-        <div><a href="nuevaTransferencia.html"> <img src="img/back.png" alt="volver atras"> </a></div>
-        <div> <h1 class="">Transferencias</h1></div>
-        <div></div>
-        
-      </header>
+  <header class="headerlogin">
+    <div class="arrowheader">
+      <div><a href="nuevaTransferencia.html"> <img src="img/back.png" alt="volver atras"> </a></div>
+      <div>
+        <h1 class="">Transferencias</h1>
+      </div>
+      <div></div>
 
-    <main class="styletransf">
+  </header>
 
-
-
-      <div><button class="btn btn-primary transf" type="button"> 
-        <img src="img/añadir.png" alt="" class="nuevatransf"> Añadir cuenta frecuente
-        <img src="img/arrow.png" alt="" class="arrowtransf"></button></div>
-
-          
-          <div class="operaciones">
-            <h2>Cuentas frecuentes</h2>
-        </div>
+  <main class="styletransf">
 
 
 
-
-        <div class="list-group" aria-colspan="contactofrec">
-          <a href="montoVacio.html" class="list-group-item list-group-item-action contactofrec">
-            <img src="img/cl.png" class="nuevatransf" alt=""> Carmen Lopez 
-            
-            <img src="img/arrow.png" alt="" class="arrowtransf" ></a>
-          <a href="#" class="list-group-item list-group-item-action contactofrec" ><img src="img/af.png" class="nuevatransf" alt=""> Alejo Fonseca   <img src="img/arrow.png" alt="" class="arrowtransf"></a>
-          <a href="#" class="list-group-item list-group-item-action contactofrec"><img src="img/sg.png" class="nuevatransf" alt="">Sofia Giusiano <img src="img/arrow.png" alt="" class="arrowtransf"></a>
-          <a href="#" class="list-group-item list-group-item-action contactofrec"><img src="img/dl.png" class="nuevatransf" alt="">Dora Ledesma<img src="img/arrow.png" alt="" class="arrowtransf"></a>
-      
-        </div>
+    <div>
+      <form action="">
+        <button type="submit" class="btn btn-primary transf"> <img src="img/añadir.png" alt="" class="nuevatransf">Añadir cuenta frecuente</button>
+        <img src="img/arrow.png" alt="" class="arrowtransf2"></a>
+      </form>
+    </div>
 
 
 
 
-    
-          
-
-          <div>
-            <button type="button" class="btn btn-primary3" data-bs-toggle="modal" data-bs-target="#exampleModal"> <img src="img/ayuda.png" alt="">Ayuda</button>
-        </div>
+    <div class="operaciones">
+      <h2>Cuentas frecuentes</h2>
+    </div>
 
 
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" >
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Elegí una de las cuentas frecuentes de la lista. Si la cuenta a donde querés transferir no está en la lista, podés agregarla seleccionando “Añadir cuenta frecuente”</h1>
-         
-        </div>
-       
-        <div class="modal-footer">
-          
-          <a href="transferencias.html" button type="button" class="btn btn-primary buttonmodal">Entendido</button></a>
-        
-  
+
+
+    <div class="list-group" aria-colspan="contactofrec">
+      <a href="montoVacio.html" class="list-group-item list-group-item-action contactofrec">
+        <img src="img/cl.png" alt="" class="nuevatransf"> Carmen Lopez
+
+        <img src="img/arrow.png" alt="" class="arrowtransf"></a>
+      <a href="#" class="list-group-item list-group-item-action contactofrec"><img src="img/af.png" alt=""
+          class="nuevatransf"> Alejo Fonseca <img src="img/arrow.png" alt="" class="arrowtransf"></a>
+      <a href="#" class="list-group-item list-group-item-action contactofrec"><img src="img/sg.png" alt=""
+          class="nuevatransf">Sofia Giusiano <img src="img/arrow.png" alt="" class="arrowtransf"></a>
+      <a href="#" class="list-group-item list-group-item-action contactofrec"><img src="img/dl.png" alt=""
+          class="nuevatransf">Dora Ledesma<img src="img/arrow.png" alt="" class="arrowtransf"></a>
+
+    </div>
+
+
+
+
+
+
+
+    <div>
+      <button type="button" class="btn btn-primary3" data-bs-toggle="modal" data-bs-target="#exampleModal"> <img
+          src="img/ayuda.png" alt="">Ayuda</button>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Elegí una de las cuentas frecuentes de la lista. Si la
+              cuenta a donde querés transferir no está en la lista, podés agregarla seleccionando “Añadir cuenta
+              frecuente”</h1>
+
+          </div>
+
+          <div class="modal-footer">
+
+            <div>
+              <form action="transferencias.html">
+                <button type="submit" class="btn btn-primary buttonmodal">Entendido</button>
+              </form>
+            </div>
+
+
+
+
+
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  
-    </main>
+
+  </main>
 
 
 
-<footer>
-<nav aria-labelledby="menu">
+  <footer>
+    <nav aria-labelledby="menu">
       <ul class="nav ">
         <li class="nav-item">
-          <a class="nav-link"  href="inicio.html"><img src="img/iniciodes.png" alt="">Inicio</a>
+          <a class="nav-link" href="inicio.html"><img src="img/iniciodes.png" alt="">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  active" aria-current="page" href="transferencias.html" alt=""><img src="img/navtranf.png">Transferir</a>
+          <a class="nav-link  active" aria-current="page" href="transferencias.html" alt=""><img src="img/navtranf.png"
+              alt="">Transferir</a>
           <div class="underline"></div>
         </li>
         <li class="nav-item">
@@ -105,9 +126,13 @@
     </nav>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>

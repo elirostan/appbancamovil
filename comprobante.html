@@ -44,15 +44,24 @@
 
           <div class="">
             <h3>Cuenta débito</h3>
-            <span aria-label="cuenta pesos 6 534 634 8 987 3" ></span>
-            <p aria-hidden="true"> CA$ Nº 6534634-8 987-3</p>
 
-          </div>
+
+            <div class="sr-only" >cuenta pesos 653 463 48 987 3</div>
+      <div aria-hidden="true">
+        <p class="styledatos">CA $ Nº6534634-8 987-3</p>
+      </div>
+
+          
 
           <div class="">
             <h3>Importe debitado:</h3>
-            <span aria-label="300 pesos" ></span>
-            <p aria-hidden="true"> $300,00</p>
+
+
+            <div class="sr-only">300 pesos</div>
+      <div class="styledatos" aria-hidden="true">
+        <span class="currency">$</span>
+        <span class="fraction">300</span>
+      </div>
 
           </div>
           
@@ -65,24 +74,35 @@
 
         <div class="">
           <h3>Cuenta crédito:</h3>
-          <span aria-label="cuenta pesos  364736225637" ></span>
-          <p aria-hidden="true"> CA$ Nº 364736225637</p>
+
+          <div class="sr-only" >cuenta pesos  364736225637</div>
+          <div aria-hidden="true">
+            <p class="">CA$ Nº 364736225637</p>
+          </div>
+
         
       </div>
 
 
-      <div class="d-grid gap-2 col-6 ">
-  
-        
-        <a class="btn btn-primary buttonstyle3" href="comprobante.html" role="button">Compartir comprobante</a>
+
+      <div>
+        <form action="comprobante.html" class="">
+          <button type="submit" class="buttoningresar">Compartir comprobante</button>
+      </form>
+      </div>
       
-        <a class="btn btn-primary buttonsecundary2" href="inicio.html" role="button">Volver al inicio</a>
-  
+      
+      <div>
+        <form action="inicio.html" class="" >
+          <button type="submit" class="buttonsecundary">Volver al inicio</button>
+      </form>
       </div>
+
+
   
 <!-- Provisorio sacar -->
 <div>
-    <button type="button" class="btn btn-primary4" data-bs-toggle="modal" data-bs-target="#exampleModal"> <img src="img/ayuda.png">Ayuda</button>
+    <button type="button" class="btn btn-primary4" data-bs-toggle="modal" data-bs-target="#exampleModal"> <img src="img/ayuda.png" alt="">Ayuda</button>
 </div>
 
 
@@ -97,8 +117,12 @@
    
     <div class="modal-footer">
       
-      <a href="comprobante.html"button type="button" class="btn btn-primary buttonmodal">Entendido</button></a>
-    
+      <div>
+        <form action="comprobante.html" >
+          <button type="submit" class="btn btn-primary buttonmodal">Entendido</button>
+      </form>
+      </div>
+
 
     
     </div>
@@ -115,8 +139,7 @@
 
 
 
-    <footer>
-    </footer>
+   
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>

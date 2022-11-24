@@ -45,30 +45,39 @@
     font-size: 1rem;
   }
 
-  input {
-    width: 299px;
+  form input {
+  width: 100%;
     height: 44px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
   }
 
-  .passwordinput{
-    display: flex;
+  .buttoningresar {
+    background-color: #691B99;
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 100%;
+    height: 44px;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px
   }
 
   .inputimage{
     position: absolute;
     right: 0px;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 32px;
+    margin-right: 5px;
   }
 
-  .moneyamount{
-    display: flex;
-    justify-content: left;
-  }
+ 
 
   label {
+
 
     font-size: 1rem;
   }
@@ -101,34 +110,46 @@ margin: 16px;
   }
 
 
+
+
+
 .buttonstyle1 {
-  margin-top: 52px;
+ 
+margin-top: 60px;
+
   background-color: #691B99 !important;
-  border-color: #691B99 !important;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-block: center;
+  border: none;
   font-weight: bold;
-  height: 44px;
-  padding-top: 10px;
+
+  color: white;
 
 
 }
 
+.formindex {
+margin-top: 50px;
+margin-left: 20px;
+margin-right: 20px;
+
+}
 
 }
 
 .buttonsecundary {
+  background-color: white;
+    color: #691B99;
+    border-color: #691B99;
+    font-weight: bold;
+    width: 100%;
+    height: 44px;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+   
  
-  margin-top: 23px;
-  margin-bottom: 52px;
-  background-color: white !important;
-  border-color: #691B99 !important;
-  color: #691B99 !important;
-  font-weight: bold;
-  height: 44px;
-  padding-top: 10px;
 
+ 
 }
 
 .buttonsecundary2 {
@@ -259,7 +280,7 @@ border-radius: 5px 5px 5px 5px!important;
     width: 64px;
     height: 84px;
     left: 300px;
-    top: 550px;
+    top: 560px;
     
   }
     .btn-primary4 {
@@ -274,7 +295,7 @@ border-radius: 5px 5px 5px 5px!important;
       width: 64px;
       height: 84px;
       left: 300px;
-      top: 600px;
+      top: 610px;
       
   
 
@@ -440,6 +461,14 @@ padding-right: 12px;
     margin-right: 50px;
   }
 
+  .arrowtransf2 {
+  
+    position: absolute;
+    right: 0px;
+    margin-top: 35px;
+    margin-right: 50px;
+  }
+
 
 
 .hist {
@@ -557,19 +586,18 @@ ul.nav {
 }
 
 .formusuario {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
   text-align: left;
-  gap: 11px;
   position: absolute;
-  height: 65px;
-  top: 209px;
+  top: 200px;
   font-weight: bold;
   color: #37006A!important;
-  left: 50px;
+  margin-left: 20px;
+  margin-right:20px;
+padding-top: 5px;
+padding-bottom: 10px;
  
- 
+
+
 
 
 
@@ -596,6 +624,7 @@ ul.nav {
 .linkcontra {
 
   font-size: 1rem;
+  margin-top: 400px;
 
 
 }
@@ -706,3 +735,16 @@ margin-left: auto;
   
 
 }
+
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1;
+  margin: 0 -1px -1px 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1;
+}
+

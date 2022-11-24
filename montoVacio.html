@@ -29,18 +29,20 @@
     <main class="styletransf">
 
 
-        <div>
-          <span aria-label="Desde cuenta pesos 653 463 48 987 3" ></span>
-            <p class="styledatos" aria-hidden="true">Desde CA $ 6534634-8 987-3</p>
-
-          </div>
 
 
-          <div>
-            <span aria-label="Saldo disponible 150.675,96 pesos" ></span>
-            <p class="stylesaldo" aria-hidden="true"> Saldo disponible $150.675,96</p>
-      
-          </div>
+      <div class="sr-only" >Desde cuenta pesos 653 463 48 987 3</div>
+      <div aria-hidden="true">
+        <p class="styledatos">Desde CA $ 6534634-8 987-3</p>
+      </div>
+
+
+      <div class="sr-only" >Saldo disponible 150.675,96 pesos</div>
+      <div aria-hidden="true">
+        <p class="stylesaldo">Saldo disponible $150.675,96</p>
+      </div>
+
+         
           
 
 
@@ -51,7 +53,7 @@
 
 <div class="stylemonto">
 
-    <input type="text" placeholder="$0" name="monto" aria-label="monto" class="montov"></a>
+    <input type="text" placeholder="$0" name="monto" aria-label="monto" class="montov" required=""></a>
     
     </div>
 
@@ -73,7 +75,16 @@
 
 
     <div class="">
-      <a class="btn btn-primary buttoncontinuar" href="confirmarDatos.html" role="button">Continuar</a>
+
+
+      <div>
+        <form action="confirmarDatos.html" class="formindex">
+          <button type="submit" class="buttoningresar">Continuar</button>
+      </form>
+      </div>
+
+      
+    
     
     </div>
 
