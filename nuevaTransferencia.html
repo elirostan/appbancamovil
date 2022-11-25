@@ -109,25 +109,50 @@
 
 
 
-  <footer>
-    <nav aria-labelledby="menu">
-      <ul class="nav ">
-        <li class="nav-item">
-          <a class="nav-link"  href="inicio.html"><img src="img/iniciodes.png" alt="">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="nuevaTransferencia.html"><img src="img/navtranf.png" alt="">Transferir</a>
-          <div class="underline"></div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><img src="img/videocam.png" alt="">Consulta</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"><img src="img/menu.png" alt="">Menú</a>
-        </li>
-      </ul>
-    </nav>
-  </footer>
+  <div class="offcanvas offcanvas-start menu" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Mi perfil</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+   
+    <div class="list-group">
+      
+      <a href="#" class="list-group-item list-group-item-action">Cuentas</a>
+      <a href="#" class="list-group-item list-group-item-action">Configuración</a>
+      <a href="accesibilidad.html" class="list-group-item list-group-item-action">Accesibilidad</a>
+      <a href="#" class="list-group-item list-group-item-action">Políticas de Privacidad</a>
+    </div>
+  </div>
+
+
+
+
+<footer>
+<nav aria-labelledby="menu" class="footer">
+    <ul class="nav">
+      <li class="nav-item">
+        <div>
+          <a class="nav-link active" aria-current="page" href="#"><img src="img/inicio.png" alt="">Inicio</a>
+        </div>
+        <div class="underline">
+
+        </div>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="nuevaTransferencia.html"><img src="img/transf.png" alt="">Transferir</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="img/videocam.png" alt="">Consulta</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" aria-controls="offcanvasExample"><img src="img/menu.png" alt="">Menú</a>
+      </li>
+    </ul>
+  </nav>
+
+</footer>
+
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

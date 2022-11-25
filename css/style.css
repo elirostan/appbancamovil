@@ -755,3 +755,15 @@ margin-left: auto;
   font-weight: 400;
   margin-left: 16px;
 }
+
+.styleaccesibilidad {
+margin-top: 16px;
+  text-align:left !important;
+  margin-left: 16px!important;
+  margin-right: 16px;
+}
+
+.menu {
+
+  text-align:left !important;
+}
