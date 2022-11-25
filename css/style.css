@@ -767,3 +767,9 @@ margin-top: 16px;
 
   text-align:left !important;
 }
+
+.stylelink {
+  color: #691B99;
+ text-decoration: underline;
+
+}
