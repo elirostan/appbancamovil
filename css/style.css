@@ -777,3 +777,7 @@ margin-top: 16px;
 button:focus {
   color: blue;
 }
+
+button:active {
+  color: white;
+}
