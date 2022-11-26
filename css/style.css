@@ -56,7 +56,7 @@
 
   .buttoningresar {
     background-color: #691B99;
-    color: white;
+    color: white !important;
     border: none;
     font-weight: bold;
     width: 100%;
@@ -121,7 +121,7 @@ margin-top: 60px;
   border: none;
   font-weight: bold;
 
-  color: white;
+  color: white  !important;
 
 
 }
