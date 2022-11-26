@@ -773,3 +773,7 @@ margin-top: 16px;
  text-decoration: underline;
 
 }
+
+button:focus {
+  color: blue;
+}
