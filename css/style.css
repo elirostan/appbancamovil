@@ -781,3 +781,12 @@ button:focus {
 button:active {
   color: white;
 }
+
+.buttonmodal2 {
+  text-align: right!important;
+  background-color: #9C4DCC;
+  border: none;
+
+  margin-left: 300px;
+  margin-bottom: 20px;
+}
